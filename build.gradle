@@ -28,7 +28,7 @@ dependencies {
     implementation 'org.springframework.session:spring-session-core'
 
     //database
-    runtimeOnly 'com.h2database:h2'
+//    runtimeOnly 'com.h2database:h2'
     implementation group: 'org.mariadb.jdbc', name: 'mariadb-java-client', version: '3.2.0'
 
     // creeat auto data
